@@ -12,7 +12,7 @@ with open('classes.txt','r') as f:
     classnames = f.read().splitlines()
 
 #print(classnames)
-image = cv2.imread('lions.jpg')
+image = cv2.imread('dogs.jpg')
 image = cv2.resize(image,(640,480))
 
 image_transform = transforms.ToTensor()
